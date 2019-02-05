@@ -37,8 +37,10 @@ function resetColors() {
   document.querySelector('#hdisplay').innerHTML = color;
   document.querySelector('#sdisplay').innerHTML = s;
   document.querySelector('#ldisplay').innerHTML = l;
+  document.querySelector('#rgb').innerHTML = document.body.style["background-color"];
 }
-//
+//sets the colors to values from the inputs 
+//updates display to reflect those values
 resetColors();
 
 //adds an event listener to the toggle button
