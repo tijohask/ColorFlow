@@ -31,12 +31,12 @@ function colorFlow() {
 //changes the body style to reflect the values stored in color, s and l
 //updates the webpage to display those colors
 function resetColors() {
-    s = document.getElementById("s").value;
-    l = document.getElementById("l").value;
-    document.querySelector('body').style.background = `hsl(${color}, ${s}%, ${l}%)`;
-    document.querySelector('#hdisplay').innerHTML = color;
-    document.querySelector('#sdisplay').innerHTML = s;
-    document.querySelector('#ldisplay').innerHTML = l;
+  s = document.getElementById("s").value;
+  l = document.getElementById("l").value;
+  document.querySelector('body').style.background = `hsl(${color}, ${s}%, ${l}%)`;
+  document.querySelector('#hdisplay').innerHTML = color;
+  document.querySelector('#sdisplay').innerHTML = s;
+  document.querySelector('#ldisplay').innerHTML = l;
 }
 //
 resetColors();
