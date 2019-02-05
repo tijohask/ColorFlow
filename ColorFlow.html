@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Flow</title>
+</head>
+<body>
+  <h1>COLORS!!!!!!!!!</h1>
+  
+  <div>
+    <input type="button" id="flow" value="toggle-flow" />
+    <span id="state"></span>
+  </div>
+  
+  <div>
+    <label>Saturation<span>(0 - 100%)</span></label>
+    <input type="number" id="s" value="100" max="100" min="0" />
+  </div>
+  
+  <div>
+    <label>Lightness<span>(0 - 100%)</span></label>
+    <input type="number" id="l" value="50" max="100" min="0" />
+  </div>
+
+  <div>hsl(<span id="hdisplay"></span>, <span id="sdisplay"></span>, <span id="ldisplay"></span>)</div>
+  <script type="text/javascript" src="colors.js"></script>
+</body>
+</html>
